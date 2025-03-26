@@ -18,7 +18,3 @@ const countdownTimer = setInterval(function() {
         document.getElementById("countdown-timer").innerHTML = "¡Es hora de la revelación!";
     }
 }, 1000);
-
-import { database } from "./firebase-config.js"; 
-
-console.log("Firebase cargado correctamente", database);
